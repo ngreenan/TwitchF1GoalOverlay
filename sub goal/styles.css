@@ -1,0 +1,95 @@
+/* All html objects will be wrapped in the #wrap div */
+
+@font-face {
+  font-family: 'F1';
+  src: url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff2") format("woff2"), url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'F1Bold';
+  src: url("https://www.formula1.com//etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff2") format("woff2"), url("https://www.formula1.com//etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.goal-cont {
+  color: white;
+  /* background: black; */
+  position: relative;
+}
+
+#goal-tags {
+  height: 37px;
+}
+
+#goal-bar {
+  height: 37px;
+}
+
+#goal-label, #goal-total {
+  display: inline-block;
+  height: 35px;
+  width: 110px;
+  vertical-align: top;
+  margin: 1px 0px;
+  line-height: 35px;
+  text-align: center;
+  font-family: "F1Bold" !important;
+}
+
+#goal-total {
+  display: inline-block;
+  height: 35px;
+  width: 100px;
+  vertical-align: top;
+  margin: 1px 0px 1px 10px;
+  line-height: 35px;
+  text-align: left;
+  font-family: "F1Bold" !important;
+  font-size: 1.5em;
+}
+
+.goal-bar {
+  display: inline-block;
+  height: 20px;
+  margin: 7px 0px;
+  border: 2px white solid;
+}
+
+#goal-bar-left {
+  width: 250px;
+  background: rgb(250,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1)  00%, rgba(250,0,0,1)100%);
+}
+
+#goal-bar-right {
+  width: 250px;
+  background: rgb(250,250,250);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(250,250,250,1) 100%);
+}
+
+#goal-icon {
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  height: 37px;
+  width: 37px;
+  margin-left: 102px;
+  margin-top: 37px;
+  background-image: url('https://i.imgur.com/KlIlErB.png');
+}
+
+#goal-current {
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  height: 37px;
+  width: 100px;
+  margin-left: 70.5px;
+  margin-top: 4px;
+  font-family: "F1Bold" !important;
+  color: white;
+  line-height: 37px;
+  text-align: center;
+  font-size: 1.5em;
+}
